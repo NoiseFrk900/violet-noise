@@ -64,8 +64,8 @@ hi SpellBad		guifg=#410340	guibg=#8b8852
 "hi SpellCap		guifg=#
 "hi SpellLocal		guifg=#
 "hi SpellRare		guifg=#
-hi StatusLine		guifg=#96ad8c	guibg=#32552c
-hi StatusLineNC		guifg=#ada38c	guibg=#8b8852
+hi StatusLine		guifg=#88528b	guibg=#410340
+hi StatusLineNC		guifg=#745c73	guibg=#1d011d
 "hi StatusLineTerm	guifg=#
 "hi StatusLineTermNC	guifg=#
 "hi TabLine		guifg=#
