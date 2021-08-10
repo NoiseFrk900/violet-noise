@@ -4,12 +4,10 @@
 "| |\  ||  _|  \__, |
 "|_| \_||_|      /_/
 "
-" TEST.vim
 " vim colorscheme
-" by <NoiseFrk900>
-" created yyyy/mm/dd 
-" Project: Nord Vim
-" Repository: https://github.com/noisefrk900/TEST-vim
+" Maintainer: NoiseFrk900
+" Project: violet-noise
+" Repository: https://github.com/NoiseFrk900/violet-noise
 " License: MIT
 
 set background=dark
@@ -21,7 +19,7 @@ if version > 580
 	endif
 endif
 
-let g:colors_name = "test"
+let g:colors_name = "violet-noise"
 
 "DEFAULT HIGHLIGHTING GROUPS
 "hi ColorColumn		guifg=#
@@ -31,7 +29,7 @@ hi lCursor		guifg=#96ad8c
 "hi CursorIM		guifg=#
 "hi CursorColumn	guifg=#
 "hi hi CursorLine	guifg=#
-"hi Directory		guifg=#
+hi Directory		guifg=#558b52
 "hi DiffAdd		guifg=#
 "hi DiffChange		guifg=#
 "hi DiffDelete		guifg=#
@@ -56,7 +54,7 @@ hi Pmenu		guifg=#745c73	guibg=#410340
 hi PmenuSel		guifg=#32552c	guibg=#96ad8c
 hi PmenuSbar				guibg=#32552c
 hi PmenuThumb				guibg=#96ad8c
-"hi Question		guifg=#
+hi Question		guifg=#410340	guibg=#558b52
 "hi QuickFixLine	guifg=#
 hi Search		guifg=#410340	guibg=#8b8852
 "hi SpecialKey		guifg=#
@@ -75,7 +73,7 @@ hi StatusLineNC		guifg=#745c73	guibg=#1d011d
 "hi Title		guifg=#
 "hi Visual		guifg=#
 "hi VisualNOS		guifg=#
-"hi WarningMsg		guifg=#
+hi WarningMsg		guifg=#772f4a	guibg=#8b8852
 "hi WildMenu		guifg=#
 
 "SYNTAX HIGHLIGHTING GROUPS
@@ -93,7 +91,7 @@ hi Error		guifg=#cec0d2	guibg=#772f4a
 hi Float		guifg=#558b52
 hi Function		guifg=#8b8852
 hi Identifier		guifg=#558b52			cterm=bold
-"hi Ignore		guifg=#
+hi Ignore		guifg=#772f4a
 "hi Include		guifg=#
 hi Keyword		guifg=#cec0d2
 "hi Label		guifg=#
