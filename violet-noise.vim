@@ -48,13 +48,13 @@ hi LineNr		guifg=#5c745d
 hi MatchParen		guifg=#5c745d
 "hi ModeMsg		guifg=#
 "hi MoreMsg		guifg=#
-"hi NonText		guifg=#NONE
+hi NonText		guifg=NONE
 hi Normal		guifg=#88528b	guibg=#1d011d
 hi Pmenu		guifg=#745c73	guibg=#410340
 hi PmenuSel		guifg=#32552c	guibg=#96ad8c
 hi PmenuSbar				guibg=#32552c
 hi PmenuThumb				guibg=#96ad8c
-hi Question		guifg=#410340	guibg=#558b52
+hi Question		guifg=#558b52			cterm=bold
 "hi QuickFixLine	guifg=#
 hi Search		guifg=#410340	guibg=#8b8852
 "hi SpecialKey		guifg=#
@@ -64,8 +64,8 @@ hi SpellBad		guifg=#410340	guibg=#8b8852
 "hi SpellRare		guifg=#
 hi StatusLine		guifg=#88528b	guibg=#410340
 hi StatusLineNC		guifg=#745c73	guibg=#1d011d
-"hi StatusLineTerm	guifg=#
-"hi StatusLineTermNC	guifg=#
+hi StatusLineTerm	guifg=#410340	guibg=#88528b
+hi StatusLineTermNC	guifg=#1d011d	guibg=#745c73
 "hi TabLine		guifg=#
 "hi TabLineFill		guifg=#
 "hi TabLineSel		guifg=#
@@ -73,7 +73,7 @@ hi StatusLineNC		guifg=#745c73	guibg=#1d011d
 "hi Title		guifg=#
 "hi Visual		guifg=#
 "hi VisualNOS		guifg=#
-hi WarningMsg		guifg=#772f4a	guibg=#8b8852
+hi WarningMsg		guifg=#772f4a			cterm=bold
 "hi WildMenu		guifg=#
 
 "SYNTAX HIGHLIGHTING GROUPS
