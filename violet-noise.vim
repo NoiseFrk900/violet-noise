@@ -36,7 +36,7 @@ hi lCursor		guifg=#96ad8c
 "hi DiffChange		guifg=#
 "hi DiffDelete		guifg=#
 "hi DiffText		guifg=#
-"hi EndOfBuffer		guifg=#
+hi EndOfBuffer		guifg=#96ad8c
 hi ErrorMsg		guifg=#772f4a
 "hi VertSplit		guifg=#
 hi Folded		guifg=#745c73	guibg=#410340
@@ -51,21 +51,21 @@ hi MatchParen		guifg=#5c745d
 "hi ModeMsg		guifg=#
 "hi MoreMsg		guifg=#
 "hi NonText		guifg=#NONE
-hi Normal		guifg=#88528b guibg=#1d011d
-"hi Pmenu		guifg=#
-"hi PmenuSel		guifg=#
-"hi PmenuSbar		guifg=#
-"hi PmenuThumb		guifg=#
+hi Normal		guifg=#88528b	guibg=#1d011d
+hi Pmenu		guifg=#745c73	guibg=#410340
+hi PmenuSel		guifg=#32552c	guibg=#96ad8c
+hi PmenuSbar				guibg=#32552c
+hi PmenuThumb				guibg=#96ad8c
 "hi Question		guifg=#
 "hi QuickFixLine	guifg=#
-"hi Search		guifg=#
+hi Search		guifg=#410340	guibg=#8b8852
 "hi SpecialKey		guifg=#
-"hi SpellBad		guifg=#
+hi SpellBad		guifg=#410340	guibg=#8b8852
 "hi SpellCap		guifg=#
 "hi SpellLocal		guifg=#
 "hi SpellRare		guifg=#
-hi StatusLine		guifg=#32552c
-"hi StatusLineNC	guifg=#
+hi StatusLine		guifg=#96ad8c	guibg=#32552c
+hi StatusLineNC		guifg=#ada38c	guibg=#8b8852
 "hi StatusLineTerm	guifg=#
 "hi StatusLineTermNC	guifg=#
 "hi TabLine		guifg=#
@@ -92,7 +92,7 @@ hi Error		guifg=#cec0d2	guibg=#772f4a
 "hi Exception		guifg=#
 hi Float		guifg=#558b52
 hi Function		guifg=#8b8852
-hi Identifier		guifg=#a38cad
+hi Identifier		guifg=#558b52			cterm=bold
 "hi Ignore		guifg=#
 "hi Include		guifg=#
 hi Keyword		guifg=#cec0d2
@@ -106,16 +106,16 @@ hi Operator		guifg=#a38cad
 hi PreProc		guifg=#ada38c
 "hi Repeat			guifg=#
 hi Special		guifg=#8b8852
-"hi SpecialChar		guifg=#
-hi Statement		guifg=#926f96
+hi SpecialChar		guifg=#ff00ff
+hi Statement		guifg=#926f96			cterm=bold
 "hi StorageClass	guifg=#
 hi String		guifg=#8b5255 
 hi Structure		guifg=#ada38c
 "hi Tag			guifg=#
 hi Title		guifg=#8b5255
-"hi Todo		guifg=#
-hi Type			guifg=#558b52
-hi Typedef		guifg=#558b52
+hi Todo			guifg=#1d011d	guibg=#772f4a
+hi Type			guifg=#96ad8c			cterm=bold
+hi Typedef		guifg=#96ad8c			cterm=bold
 hi Underlined		guifg=#cec0d2
 hi Variable		guifg=#a38cad
 
