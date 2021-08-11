@@ -24,7 +24,7 @@ endif
 let g:colors_name = "test"
 
 "DEFAULT HIGHLIGHTING GROUPS
-"hi ColorColumn		guifg=#
+"hi ColorColumn		guifg=#		guibg=#
 "hi Conceal		guifg=#
 hi Cursor		guifg=#558b52
 hi lCursor		guifg=#96ad8c
