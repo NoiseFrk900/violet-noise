@@ -1,14 +1,12 @@
-" _   _  _____  ___
-"| \ | ||  ___|/ _ \
-"|  \| || |_  | (_) |
-"| |\  ||  _|  \__, |
-"|_| \_||_|      /_/
-"
-" vim colorscheme
-" Maintainer: NoiseFrk900
-" Project: violet-noise
-" Repository: https://github.com/NoiseFrk900/violet-noise
-" License: MIT
+" ============================================================================
+" Name:     Violet-noise vim colorscheme
+" Author:   NoiseFrk900 <NoiseFreak900@gmail.com>  
+" URL:      https://github.com/noisefrk900/violet-noise.git  
+" License:  MIT license
+" Created:  Power density increasing 6.02 dB per octave with increasing 
+"           frequency over a finite frequency range
+" Modified: 2021-08-14
+" ============================================================================
 
 set background=dark
 
